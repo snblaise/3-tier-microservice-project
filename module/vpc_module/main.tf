@@ -82,7 +82,6 @@ resource "aws_subnet" "private_app_subnet_az1" {
 
 }
 
-
 resource "aws_subnet" "private_app_subnet_az2" {
     vpc_id = aws_vpc.cicd_vpc.id
     cidr_block = var.private_app_subnet_az2_cidr
